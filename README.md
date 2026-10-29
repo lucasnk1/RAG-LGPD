@@ -31,10 +31,24 @@ Amostra de 15 perguntas do gabarito (sorteio com semente fixa) + 3 perguntas for
 |---|---|
 | Respostas com conteúdo, marcadas manualmente | 11 de 15: **8 sustentadas, 3 parciais, 0 não sustentadas** |
 | Recusas ("Não encontrei na lei.") em perguntas com gabarito | 4 de 15 (a busca não trouxe o artigo certo) |
-| Citações apenas de artigos recuperados (calculado pelo código) | 15 de 15 |
+| Citações apenas de artigos recuperados (calculado pelo código) | 15 de 15 (inclui as 4 recusas, que não citam nenhum artigo) |
 | Recusa correta em perguntas fora do escopo | 3 de 3 |
 
 As 3 respostas parciais são **omissões** (o modelo resumiu e deixou de fora condições ou parágrafos), não invenções. Com 15 itens, cada resposta pesa ~7 pontos percentuais: leia como "8 de 11", não como uma taxa.
+
+### Exemplo real (e5-small + chunk por artigo, `gemini-3.5-flash`)
+
+```
+> Qual o prazo para comunicar um incidente de segurança?
+A comunicação do incidente de segurança deve ser feita em prazo razoável, conforme definido
+pela autoridade nacional (Art. 48, § 1º).
+Recuperados: ['48', '19', '46', '38', '44'] | Citados: ['48']
+
+> Qual a capital da França?
+Não encontrei na lei.
+```
+
+A lei não fixa um número de horas ou dias; o modelo não inventou um.
 
 ## Pipeline
 
@@ -76,10 +90,14 @@ python -m venv .venv
 
 $env:GEMINI_API_KEY = "sua_chave"
 .\.venv\Scripts\python.exe -m src.rag "Qual o prazo para comunicar um incidente de segurança?"
-.\.venv\Scripts\python.exe -m src.fidelidade gerar    # gera respostas da amostra
+.\.venv\Scripts\python.exe -m src.fidelidade gerar    # gera respostas da amostra e results/fidelidade_revisao.md
+# marque a coluna "fiel" em results/fidelidade_marcacao.csv (sim / parcial / nao / recusa)
+.\.venv\Scripts\python.exe -m src.fidelidade resumo   # conta a marcação e calcula as métricas automáticas
 .\.venv\Scripts\python.exe app.py                     # demo Gradio local
 .\.venv\Scripts\python.exe -m pytest -q tests
 ```
+
+A primeira indexação baixa os dois modelos de embeddings (cerca de 1,5 GB no total). Os resultados do Gemini podem variar entre execuções (veja Limitações); a recuperação deu resultado idêntico em duas execuções locais seguidas e deve reproduzir a tabela acima (outras bibliotecas ou máquinas podem diferir levemente).
 
 No Colab, guarde a chave em *Secrets* com o nome `GEMINI_API_KEY`. O `app.py` também serve para um Space do Hugging Face com SDK Gradio (plano pago): defina a chave em *Settings > Secrets*; o índice é reconstruído no primeiro start. Esse caminho não foi testado.
 
@@ -122,6 +140,14 @@ Python, pypdf, sentence-transformers (multilingual-e5), ChromaDB, Gemini (`googl
 - **Escopo único.** Apenas a LGPD (sem regulamentos da ANPD, jurisprudência ou outras leis).
 - **Notebook.** O notebook (seções 1 a 5) foi executado de ponta a ponta no Colab pelo autor em out/2026, sem erros. Não há teste automatizado do notebook, e o link público da demo é temporário (expira com a sessão).
 - **Ollama.** A opção local existe no código, mas não foi testada.
+
+## Próximos passos
+
+1. Baseline lexical (BM25) para comparar com a busca vetorial.
+2. Intervalos de confiança (bootstrap) para as métricas de recuperação.
+3. Dividir o art. 5 por inciso (cada definição vira um chunk) e remedir. Como as perguntas #1 e #2 motivaram a mudança, a melhora medida nelas será otimista.
+4. Reranking com cross-encoder.
+5. Perguntas adicionais escritas com linguagem coloquial, para reduzir a sobreposição de vocabulário com a lei.
 
 ## Licença
 
