@@ -5,8 +5,8 @@ Sistema de perguntas e respostas sobre a **Lei Geral de Proteção de Dados (Lei
 > Projeto de portfólio. **Não é aconselhamento jurídico.**
 
 - Código: https://github.com/lucasnk1/RAG-LGPD
-- Demo (Hugging Face Spaces): publicação pendente; o link será adicionado aqui.
-- Notebook para Colab: `notebooks_lgpd_rag.ipynb`
+- Demo: roda no Colab com link temporário do Gradio. [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lucasnk1/RAG-LGPD/blob/main/notebooks_lgpd_rag.ipynb)
+  Não há demo permanente: em out/2026, Spaces com Gradio no Hugging Face exigiam plano pago, e o plano estático gratuito não executa Python no servidor.
 
 ## Resumo dos resultados
 
@@ -81,7 +81,7 @@ $env:GEMINI_API_KEY = "sua_chave"
 .\.venv\Scripts\python.exe -m pytest -q tests
 ```
 
-Para o Hugging Face Spaces, defina `GEMINI_API_KEY` em *Settings > Secrets*; o índice é reconstruído automaticamente no primeiro start.
+No Colab, guarde a chave em *Secrets* com o nome `GEMINI_API_KEY`. O `app.py` também serve para um Space do Hugging Face com SDK Gradio (plano pago): defina a chave em *Settings > Secrets*; o índice é reconstruído no primeiro start. Esse caminho não foi testado.
 
 ## Estrutura
 
@@ -120,7 +120,7 @@ Python, pypdf, sentence-transformers (multilingual-e5), ChromaDB, Gemini (`googl
 - **Respostas incompletas.** O modelo omite condições e parágrafos (3 de 11 respostas parciais).
 - **Geração não determinística e dependente de serviço gratuito.** Os modelos Gemini usados ignoram `temperature`. Durante o desenvolvimento ocorreram erros 503 e 504 e timeouts. Na geração das 18 respostas da amostra, o `gemini-3.5-flash` ficou sem responder por 90 s em pelo menos uma tentativa em 3 itens (G29, F2 e F3), com respostas normais em 3 a 6 s; por isso o limite atual é de 30 s. A mitigação é o fallback, não uma garantia. 16 respostas da amostra vieram do `gemini-3.5-flash` e 2 do `gemini-3.1-flash-lite`.
 - **Escopo único.** Apenas a LGPD (sem regulamentos da ANPD, jurisprudência ou outras leis).
-- **Notebook.** O notebook ainda não foi executado de ponta a ponta no Colab; a validação foi feita rodando os módulos `src/` localmente (Windows, Python 3.14).
+- **Notebook.** O notebook (seções 1 a 5) ainda não foi executado de ponta a ponta no Colab; a validação foi feita rodando os módulos `src/` localmente (Windows, Python 3.14).
 - **Ollama.** A opção local existe no código, mas não foi testada.
 
 ## Licença
