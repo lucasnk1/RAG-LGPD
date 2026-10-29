@@ -120,7 +120,7 @@ Python, pypdf, sentence-transformers (multilingual-e5), ChromaDB, Gemini (`googl
 - **Respostas incompletas.** O modelo omite condições e parágrafos (3 de 11 respostas parciais).
 - **Geração não determinística e dependente de serviço gratuito.** Os modelos Gemini usados ignoram `temperature`. Durante o desenvolvimento ocorreram erros 503 e 504 e timeouts. Na geração das 18 respostas da amostra, o `gemini-3.5-flash` ficou sem responder por 90 s em pelo menos uma tentativa em 3 itens (G29, F2 e F3), com respostas normais em 3 a 6 s; por isso o limite atual é de 30 s. A mitigação é o fallback, não uma garantia. 16 respostas da amostra vieram do `gemini-3.5-flash` e 2 do `gemini-3.1-flash-lite`.
 - **Escopo único.** Apenas a LGPD (sem regulamentos da ANPD, jurisprudência ou outras leis).
-- **Notebook.** O notebook (seções 1 a 5) ainda não foi executado de ponta a ponta no Colab; a validação foi feita rodando os módulos `src/` localmente (Windows, Python 3.14).
+- **Notebook.** O notebook (seções 1 a 5) foi executado de ponta a ponta no Colab pelo autor em out/2026, sem erros. Não há teste automatizado do notebook, e o link público da demo é temporário (expira com a sessão).
 - **Ollama.** A opção local existe no código, mas não foi testada.
 
 ## Licença
