@@ -1,0 +1,6 @@
+pypdf
+pytest
+chromadb
+sentence-transformers
+google-genai
+gradio

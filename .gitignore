@@ -1,0 +1,15 @@
+# Segredos
+.env
+*.key
+secrets.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Artefatos gerados (reproduzíveis pelo notebook)
+chroma_db/
+.pytest_cache/

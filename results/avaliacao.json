@@ -1,0 +1,1738 @@
+{
+ "e5-small + A (artigo)": {
+  "hit": {
+   "1": 0.6333333333333333,
+   "3": 0.7666666666666667,
+   "5": 0.8333333333333334
+  },
+  "recall": {
+   "1": 0.55,
+   "3": 0.7166666666666667,
+   "5": 0.7833333333333333
+  },
+  "detalhes": [
+   {
+    "id": 1,
+    "pergunta": "O que a lei considera dado pessoal sensível?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "1",
+     "11",
+     "26",
+     "12",
+     "14"
+    ]
+   },
+   {
+    "id": 2,
+    "pergunta": "Quem é o controlador dos dados?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "38",
+     "41",
+     "16",
+     "20",
+     "14"
+    ]
+   },
+   {
+    "id": 3,
+    "pergunta": "Quem é o encarregado de dados e quem o indica?",
+    "gabarito": [
+     "41",
+     "5"
+    ],
+    "recuperados@5": [
+     "41",
+     "38",
+     "58-A",
+     "55-C",
+     "27"
+    ]
+   },
+   {
+    "id": 4,
+    "pergunta": "Em quais casos a LGPD não se aplica?",
+    "gabarito": [
+     "4"
+    ],
+    "recuperados@5": [
+     "4",
+     "1",
+     "10",
+     "44",
+     "58-A"
+    ]
+   },
+   {
+    "id": 5,
+    "pergunta": "Quais princípios as empresas precisam seguir ao tratar dados pessoais?",
+    "gabarito": [
+     "6"
+    ],
+    "recuperados@5": [
+     "1",
+     "6",
+     "46",
+     "9",
+     "26"
+    ]
+   },
+   {
+    "id": 6,
+    "pergunta": "A empresa pode tratar dados para cumprir uma obrigação legal sem pedir consentimento?",
+    "gabarito": [
+     "7"
+    ],
+    "recuperados@5": [
+     "18",
+     "7",
+     "9",
+     "27",
+     "19"
+    ]
+   },
+   {
+    "id": 7,
+    "pergunta": "Como o consentimento do titular precisa ser dado?",
+    "gabarito": [
+     "8"
+    ],
+    "recuperados@5": [
+     "8",
+     "9",
+     "19",
+     "18",
+     "14"
+    ]
+   },
+   {
+    "id": 8,
+    "pergunta": "O titular pode voltar atrás e retirar o consentimento que deu?",
+    "gabarito": [
+     "18",
+     "8"
+    ],
+    "recuperados@5": [
+     "8",
+     "15",
+     "18",
+     "9",
+     "20"
+    ]
+   },
+   {
+    "id": 9,
+    "pergunta": "Quais cuidados valem para dados de crianças e adolescentes?",
+    "gabarito": [
+     "14"
+    ],
+    "recuperados@5": [
+     "14",
+     "34",
+     "20",
+     "1",
+     "44"
+    ]
+   },
+   {
+    "id": 10,
+    "pergunta": "Quando o tratamento acaba e o que acontece com os dados depois?",
+    "gabarito": [
+     "15",
+     "16"
+    ],
+    "recuperados@5": [
+     "44",
+     "15",
+     "16",
+     "47",
+     "11"
+    ]
+   },
+   {
+    "id": 11,
+    "pergunta": "Quais direitos tenho sobre os meus dados pessoais?",
+    "gabarito": [
+     "18"
+    ],
+    "recuperados@5": [
+     "1",
+     "4",
+     "9",
+     "55-J",
+     "18"
+    ]
+   },
+   {
+    "id": 12,
+    "pergunta": "Em quanto tempo a empresa deve confirmar que trata meus dados?",
+    "gabarito": [
+     "19"
+    ],
+    "recuperados@5": [
+     "19",
+     "18",
+     "9",
+     "44",
+     "1"
+    ]
+   },
+   {
+    "id": 13,
+    "pergunta": "Posso pedir revisão de uma decisão tomada só por algoritmo?",
+    "gabarito": [
+     "20"
+    ],
+    "recuperados@5": [
+     "20",
+     "12",
+     "18",
+     "8",
+     "11"
+    ]
+   },
+   {
+    "id": 14,
+    "pergunta": "Em que casos dados pessoais podem ser enviados para outro país?",
+    "gabarito": [
+     "33"
+    ],
+    "recuperados@5": [
+     "34",
+     "33",
+     "4",
+     "26",
+     "27"
+    ]
+   },
+   {
+    "id": 15,
+    "pergunta": "Quem avalia se um país estrangeiro protege bem os dados pessoais?",
+    "gabarito": [
+     "34"
+    ],
+    "recuperados@5": [
+     "34",
+     "4",
+     "38",
+     "1",
+     "44"
+    ]
+   },
+   {
+    "id": 16,
+    "pergunta": "O operador deve seguir as instruções do controlador?",
+    "gabarito": [
+     "39"
+    ],
+    "recuperados@5": [
+     "39",
+     "41",
+     "37",
+     "48",
+     "42"
+    ]
+   },
+   {
+    "id": 17,
+    "pergunta": "A empresa precisa manter registro das operações de tratamento?",
+    "gabarito": [
+     "37"
+    ],
+    "recuperados@5": [
+     "37",
+     "24",
+     "3",
+     "19",
+     "41"
+    ]
+   },
+   {
+    "id": 18,
+    "pergunta": "O que é o relatório de impacto à proteção de dados?",
+    "gabarito": [
+     "38",
+     "5"
+    ],
+    "recuperados@5": [
+     "38",
+     "32",
+     "58-B",
+     "4",
+     "48"
+    ]
+   },
+   {
+    "id": 19,
+    "pergunta": "A quem o titular pode fazer reclamações dentro da empresa?",
+    "gabarito": [
+     "41"
+    ],
+    "recuperados@5": [
+     "50",
+     "42",
+     "48",
+     "61",
+     "9"
+    ]
+   },
+   {
+    "id": 20,
+    "pergunta": "Quem responde pelos danos causados por tratamento irregular de dados?",
+    "gabarito": [
+     "42",
+     "44"
+    ],
+    "recuperados@5": [
+     "44",
+     "42",
+     "43",
+     "26",
+     "52"
+    ]
+   },
+   {
+    "id": 21,
+    "pergunta": "Em que situações os agentes de tratamento não são responsabilizados?",
+    "gabarito": [
+     "43"
+    ],
+    "recuperados@5": [
+     "43",
+     "46",
+     "47",
+     "42",
+     "9"
+    ]
+   },
+   {
+    "id": 22,
+    "pergunta": "A empresa deve avisar sobre vazamento de dados?",
+    "gabarito": [
+     "48"
+    ],
+    "recuperados@5": [
+     "48",
+     "20",
+     "38",
+     "26",
+     "14"
+    ]
+   },
+   {
+    "id": 23,
+    "pergunta": "Quais medidas de segurança os agentes devem adotar?",
+    "gabarito": [
+     "46"
+    ],
+    "recuperados@5": [
+     "46",
+     "48",
+     "6",
+     "41",
+     "34"
+    ]
+   },
+   {
+    "id": 24,
+    "pergunta": "Que punições a ANPD pode aplicar a quem descumpre a lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-J",
+     "55-C",
+     "12",
+     "18"
+    ]
+   },
+   {
+    "id": 25,
+    "pergunta": "Qual o limite da multa simples pelo descumprimento da lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "54",
+     "53",
+     "65",
+     "52",
+     "55-E"
+    ]
+   },
+   {
+    "id": 26,
+    "pergunta": "Qual a natureza jurídica da ANPD?",
+    "gabarito": [
+     "55-A"
+    ],
+    "recuperados@5": [
+     "55-C",
+     "55-K",
+     "55-G",
+     "55-D",
+     "55-J"
+    ]
+   },
+   {
+    "id": 27,
+    "pergunta": "A lei vale para dados coletados no Brasil por empresa estrangeira?",
+    "gabarito": [
+     "3"
+    ],
+    "recuperados@5": [
+     "3",
+     "61",
+     "34",
+     "18",
+     "14"
+    ]
+   },
+   {
+    "id": 28,
+    "pergunta": "Quando o legítimo interesse pode justificar o tratamento de dados?",
+    "gabarito": [
+     "10",
+     "7"
+    ],
+    "recuperados@5": [
+     "10",
+     "37",
+     "1",
+     "44",
+     "26"
+    ]
+   },
+   {
+    "id": 29,
+    "pergunta": "Dados anonimizados são considerados dados pessoais?",
+    "gabarito": [
+     "12"
+    ],
+    "recuperados@5": [
+     "12",
+     "1",
+     "18",
+     "14",
+     "20"
+    ]
+   },
+   {
+    "id": 30,
+    "pergunta": "Quando é permitido tratar dados pessoais sensíveis?",
+    "gabarito": [
+     "11"
+    ],
+    "recuperados@5": [
+     "11",
+     "1",
+     "46",
+     "14",
+     "9"
+    ]
+   }
+  ]
+ },
+ "e5-small + B (parágrafos)": {
+  "hit": {
+   "1": 0.5666666666666667,
+   "3": 0.7666666666666667,
+   "5": 0.8666666666666667
+  },
+  "recall": {
+   "1": 0.48333333333333334,
+   "3": 0.7,
+   "5": 0.8166666666666667
+  },
+  "detalhes": [
+   {
+    "id": 1,
+    "pergunta": "O que a lei considera dado pessoal sensível?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "11",
+     "5",
+     "23",
+     "26"
+    ]
+   },
+   {
+    "id": 2,
+    "pergunta": "Quem é o controlador dos dados?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "42",
+     "41",
+     "38",
+     "44"
+    ]
+   },
+   {
+    "id": 3,
+    "pergunta": "Quem é o encarregado de dados e quem o indica?",
+    "gabarito": [
+     "41",
+     "5"
+    ],
+    "recuperados@5": [
+     "41",
+     "42",
+     "55-C",
+     "33"
+    ]
+   },
+   {
+    "id": 4,
+    "pergunta": "Em quais casos a LGPD não se aplica?",
+    "gabarito": [
+     "4"
+    ],
+    "recuperados@5": [
+     "11",
+     "33",
+     "4",
+     "44",
+     "7"
+    ]
+   },
+   {
+    "id": 5,
+    "pergunta": "Quais princípios as empresas precisam seguir ao tratar dados pessoais?",
+    "gabarito": [
+     "6"
+    ],
+    "recuperados@5": [
+     "6",
+     "33",
+     "23",
+     "9",
+     "34"
+    ]
+   },
+   {
+    "id": 6,
+    "pergunta": "A empresa pode tratar dados para cumprir uma obrigação legal sem pedir consentimento?",
+    "gabarito": [
+     "7"
+    ],
+    "recuperados@5": [
+     "18",
+     "11",
+     "7",
+     "50",
+     "23"
+    ]
+   },
+   {
+    "id": 7,
+    "pergunta": "Como o consentimento do titular precisa ser dado?",
+    "gabarito": [
+     "8"
+    ],
+    "recuperados@5": [
+     "18",
+     "9",
+     "19",
+     "7"
+    ]
+   },
+   {
+    "id": 8,
+    "pergunta": "O titular pode voltar atrás e retirar o consentimento que deu?",
+    "gabarito": [
+     "18",
+     "8"
+    ],
+    "recuperados@5": [
+     "15",
+     "9",
+     "8",
+     "18"
+    ]
+   },
+   {
+    "id": 9,
+    "pergunta": "Quais cuidados valem para dados de crianças e adolescentes?",
+    "gabarito": [
+     "14"
+    ],
+    "recuperados@5": [
+     "14",
+     "34",
+     "44",
+     "20",
+     "38"
+    ]
+   },
+   {
+    "id": 10,
+    "pergunta": "Quando o tratamento acaba e o que acontece com os dados depois?",
+    "gabarito": [
+     "15",
+     "16"
+    ],
+    "recuperados@5": [
+     "15",
+     "44",
+     "16",
+     "11",
+     "47"
+    ]
+   },
+   {
+    "id": 11,
+    "pergunta": "Quais direitos tenho sobre os meus dados pessoais?",
+    "gabarito": [
+     "18"
+    ],
+    "recuperados@5": [
+     "18",
+     "9",
+     "55-J",
+     "58-A",
+     "11"
+    ]
+   },
+   {
+    "id": 12,
+    "pergunta": "Em quanto tempo a empresa deve confirmar que trata meus dados?",
+    "gabarito": [
+     "19"
+    ],
+    "recuperados@5": [
+     "18",
+     "52",
+     "23",
+     "44",
+     "19"
+    ]
+   },
+   {
+    "id": 13,
+    "pergunta": "Posso pedir revisão de uma decisão tomada só por algoritmo?",
+    "gabarito": [
+     "20"
+    ],
+    "recuperados@5": [
+     "20",
+     "12",
+     "18",
+     "38"
+    ]
+   },
+   {
+    "id": 14,
+    "pergunta": "Em que casos dados pessoais podem ser enviados para outro país?",
+    "gabarito": [
+     "33"
+    ],
+    "recuperados@5": [
+     "34",
+     "33",
+     "4",
+     "11"
+    ]
+   },
+   {
+    "id": 15,
+    "pergunta": "Quem avalia se um país estrangeiro protege bem os dados pessoais?",
+    "gabarito": [
+     "34"
+    ],
+    "recuperados@5": [
+     "34",
+     "33",
+     "44",
+     "55-J",
+     "58-B"
+    ]
+   },
+   {
+    "id": 16,
+    "pergunta": "O operador deve seguir as instruções do controlador?",
+    "gabarito": [
+     "39"
+    ],
+    "recuperados@5": [
+     "39",
+     "37",
+     "42",
+     "44",
+     "48"
+    ]
+   },
+   {
+    "id": 17,
+    "pergunta": "A empresa precisa manter registro das operações de tratamento?",
+    "gabarito": [
+     "37"
+    ],
+    "recuperados@5": [
+     "37",
+     "24",
+     "50",
+     "52",
+     "7"
+    ]
+   },
+   {
+    "id": 18,
+    "pergunta": "O que é o relatório de impacto à proteção de dados?",
+    "gabarito": [
+     "38",
+     "5"
+    ],
+    "recuperados@5": [
+     "38",
+     "32",
+     "10",
+     "58-B"
+    ]
+   },
+   {
+    "id": 19,
+    "pergunta": "A quem o titular pode fazer reclamações dentro da empresa?",
+    "gabarito": [
+     "41"
+    ],
+    "recuperados@5": [
+     "50",
+     "48",
+     "61",
+     "41",
+     "9"
+    ]
+   },
+   {
+    "id": 20,
+    "pergunta": "Quem responde pelos danos causados por tratamento irregular de dados?",
+    "gabarito": [
+     "42",
+     "44"
+    ],
+    "recuperados@5": [
+     "42",
+     "44",
+     "43"
+    ]
+   },
+   {
+    "id": 21,
+    "pergunta": "Em que situações os agentes de tratamento não são responsabilizados?",
+    "gabarito": [
+     "43"
+    ],
+    "recuperados@5": [
+     "43",
+     "46",
+     "52",
+     "47",
+     "11"
+    ]
+   },
+   {
+    "id": 22,
+    "pergunta": "A empresa deve avisar sobre vazamento de dados?",
+    "gabarito": [
+     "48"
+    ],
+    "recuperados@5": [
+     "33",
+     "26",
+     "18",
+     "44",
+     "50"
+    ]
+   },
+   {
+    "id": 23,
+    "pergunta": "Quais medidas de segurança os agentes devem adotar?",
+    "gabarito": [
+     "46"
+    ],
+    "recuperados@5": [
+     "46",
+     "6",
+     "48",
+     "50",
+     "34"
+    ]
+   },
+   {
+    "id": 24,
+    "pergunta": "Que punições a ANPD pode aplicar a quem descumpre a lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-J",
+     "55-C",
+     "52"
+    ]
+   },
+   {
+    "id": 25,
+    "pergunta": "Qual o limite da multa simples pelo descumprimento da lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "52",
+     "54",
+     "65",
+     "53"
+    ]
+   },
+   {
+    "id": 26,
+    "pergunta": "Qual a natureza jurídica da ANPD?",
+    "gabarito": [
+     "55-A"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-C",
+     "55-J",
+     "55-D",
+     "55-L"
+    ]
+   },
+   {
+    "id": 27,
+    "pergunta": "A lei vale para dados coletados no Brasil por empresa estrangeira?",
+    "gabarito": [
+     "3"
+    ],
+    "recuperados@5": [
+     "61",
+     "34",
+     "3",
+     "33",
+     "5"
+    ]
+   },
+   {
+    "id": 28,
+    "pergunta": "Quando o legítimo interesse pode justificar o tratamento de dados?",
+    "gabarito": [
+     "10",
+     "7"
+    ],
+    "recuperados@5": [
+     "10",
+     "37",
+     "44",
+     "23"
+    ]
+   },
+   {
+    "id": 29,
+    "pergunta": "Dados anonimizados são considerados dados pessoais?",
+    "gabarito": [
+     "12"
+    ],
+    "recuperados@5": [
+     "12",
+     "18",
+     "16",
+     "11",
+     "5"
+    ]
+   },
+   {
+    "id": 30,
+    "pergunta": "Quando é permitido tratar dados pessoais sensíveis?",
+    "gabarito": [
+     "11"
+    ],
+    "recuperados@5": [
+     "11",
+     "18",
+     "38",
+     "44",
+     "23"
+    ]
+   }
+  ]
+ },
+ "e5-base + A (artigo)": {
+  "hit": {
+   "1": 0.6,
+   "3": 0.7333333333333333,
+   "5": 0.8666666666666667
+  },
+  "recall": {
+   "1": 0.5,
+   "3": 0.7,
+   "5": 0.85
+  },
+  "detalhes": [
+   {
+    "id": 1,
+    "pergunta": "O que a lei considera dado pessoal sensível?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "11",
+     "26",
+     "33",
+     "27",
+     "14"
+    ]
+   },
+   {
+    "id": 2,
+    "pergunta": "Quem é o controlador dos dados?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "38",
+     "41",
+     "20",
+     "50",
+     "37"
+    ]
+   },
+   {
+    "id": 3,
+    "pergunta": "Quem é o encarregado de dados e quem o indica?",
+    "gabarito": [
+     "41",
+     "5"
+    ],
+    "recuperados@5": [
+     "41",
+     "5",
+     "38",
+     "32",
+     "63"
+    ]
+   },
+   {
+    "id": 4,
+    "pergunta": "Em quais casos a LGPD não se aplica?",
+    "gabarito": [
+     "4"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "5",
+     "55-G",
+     "4",
+     "12"
+    ]
+   },
+   {
+    "id": 5,
+    "pergunta": "Quais princípios as empresas precisam seguir ao tratar dados pessoais?",
+    "gabarito": [
+     "6"
+    ],
+    "recuperados@5": [
+     "1",
+     "6",
+     "44",
+     "10",
+     "50"
+    ]
+   },
+   {
+    "id": 6,
+    "pergunta": "A empresa pode tratar dados para cumprir uma obrigação legal sem pedir consentimento?",
+    "gabarito": [
+     "7"
+    ],
+    "recuperados@5": [
+     "10",
+     "18",
+     "14",
+     "7",
+     "29"
+    ]
+   },
+   {
+    "id": 7,
+    "pergunta": "Como o consentimento do titular precisa ser dado?",
+    "gabarito": [
+     "8"
+    ],
+    "recuperados@5": [
+     "8",
+     "18",
+     "27",
+     "14",
+     "9"
+    ]
+   },
+   {
+    "id": 8,
+    "pergunta": "O titular pode voltar atrás e retirar o consentimento que deu?",
+    "gabarito": [
+     "18",
+     "8"
+    ],
+    "recuperados@5": [
+     "8",
+     "18",
+     "7",
+     "21",
+     "9"
+    ]
+   },
+   {
+    "id": 9,
+    "pergunta": "Quais cuidados valem para dados de crianças e adolescentes?",
+    "gabarito": [
+     "14"
+    ],
+    "recuperados@5": [
+     "14",
+     "1",
+     "10",
+     "6",
+     "17"
+    ]
+   },
+   {
+    "id": 10,
+    "pergunta": "Quando o tratamento acaba e o que acontece com os dados depois?",
+    "gabarito": [
+     "15",
+     "16"
+    ],
+    "recuperados@5": [
+     "15",
+     "47",
+     "16",
+     "43",
+     "31"
+    ]
+   },
+   {
+    "id": 11,
+    "pergunta": "Quais direitos tenho sobre os meus dados pessoais?",
+    "gabarito": [
+     "18"
+    ],
+    "recuperados@5": [
+     "17",
+     "1",
+     "11",
+     "18",
+     "7"
+    ]
+   },
+   {
+    "id": 12,
+    "pergunta": "Em quanto tempo a empresa deve confirmar que trata meus dados?",
+    "gabarito": [
+     "19"
+    ],
+    "recuperados@5": [
+     "19",
+     "52",
+     "10",
+     "18",
+     "41"
+    ]
+   },
+   {
+    "id": 13,
+    "pergunta": "Posso pedir revisão de uma decisão tomada só por algoritmo?",
+    "gabarito": [
+     "20"
+    ],
+    "recuperados@5": [
+     "20",
+     "22",
+     "29",
+     "12",
+     "32"
+    ]
+   },
+   {
+    "id": 14,
+    "pergunta": "Em que casos dados pessoais podem ser enviados para outro país?",
+    "gabarito": [
+     "33"
+    ],
+    "recuperados@5": [
+     "33",
+     "4",
+     "3",
+     "26",
+     "12"
+    ]
+   },
+   {
+    "id": 15,
+    "pergunta": "Quem avalia se um país estrangeiro protege bem os dados pessoais?",
+    "gabarito": [
+     "34"
+    ],
+    "recuperados@5": [
+     "34",
+     "4",
+     "33",
+     "12",
+     "5"
+    ]
+   },
+   {
+    "id": 16,
+    "pergunta": "O operador deve seguir as instruções do controlador?",
+    "gabarito": [
+     "39"
+    ],
+    "recuperados@5": [
+     "39",
+     "37",
+     "41",
+     "14",
+     "50"
+    ]
+   },
+   {
+    "id": 17,
+    "pergunta": "A empresa precisa manter registro das operações de tratamento?",
+    "gabarito": [
+     "37"
+    ],
+    "recuperados@5": [
+     "37",
+     "10",
+     "47",
+     "3",
+     "6"
+    ]
+   },
+   {
+    "id": 18,
+    "pergunta": "O que é o relatório de impacto à proteção de dados?",
+    "gabarito": [
+     "38",
+     "5"
+    ],
+    "recuperados@5": [
+     "38",
+     "32",
+     "55-J",
+     "10",
+     "48"
+    ]
+   },
+   {
+    "id": 19,
+    "pergunta": "A quem o titular pode fazer reclamações dentro da empresa?",
+    "gabarito": [
+     "41"
+    ],
+    "recuperados@5": [
+     "18",
+     "42",
+     "61",
+     "50",
+     "19"
+    ]
+   },
+   {
+    "id": 20,
+    "pergunta": "Quem responde pelos danos causados por tratamento irregular de dados?",
+    "gabarito": [
+     "42",
+     "44"
+    ],
+    "recuperados@5": [
+     "44",
+     "43",
+     "42",
+     "52",
+     "18"
+    ]
+   },
+   {
+    "id": 21,
+    "pergunta": "Em que situações os agentes de tratamento não são responsabilizados?",
+    "gabarito": [
+     "43"
+    ],
+    "recuperados@5": [
+     "43",
+     "42",
+     "47",
+     "44",
+     "18"
+    ]
+   },
+   {
+    "id": 22,
+    "pergunta": "A empresa deve avisar sobre vazamento de dados?",
+    "gabarito": [
+     "48"
+    ],
+    "recuperados@5": [
+     "31",
+     "26",
+     "48",
+     "32",
+     "20"
+    ]
+   },
+   {
+    "id": 23,
+    "pergunta": "Quais medidas de segurança os agentes devem adotar?",
+    "gabarito": [
+     "46"
+    ],
+    "recuperados@5": [
+     "46",
+     "32",
+     "47",
+     "50",
+     "6"
+    ]
+   },
+   {
+    "id": 24,
+    "pergunta": "Que punições a ANPD pode aplicar a quem descumpre a lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-C",
+     "55-J",
+     "5",
+     "52"
+    ]
+   },
+   {
+    "id": 25,
+    "pergunta": "Qual o limite da multa simples pelo descumprimento da lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "54",
+     "52",
+     "55-F",
+     "31",
+     "53"
+    ]
+   },
+   {
+    "id": 26,
+    "pergunta": "Qual a natureza jurídica da ANPD?",
+    "gabarito": [
+     "55-A"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-C",
+     "5",
+     "55-G",
+     "55-L"
+    ]
+   },
+   {
+    "id": 27,
+    "pergunta": "A lei vale para dados coletados no Brasil por empresa estrangeira?",
+    "gabarito": [
+     "3"
+    ],
+    "recuperados@5": [
+     "61",
+     "3",
+     "26",
+     "4",
+     "34"
+    ]
+   },
+   {
+    "id": 28,
+    "pergunta": "Quando o legítimo interesse pode justificar o tratamento de dados?",
+    "gabarito": [
+     "10",
+     "7"
+    ],
+    "recuperados@5": [
+     "10",
+     "1",
+     "37",
+     "6",
+     "7"
+    ]
+   },
+   {
+    "id": 29,
+    "pergunta": "Dados anonimizados são considerados dados pessoais?",
+    "gabarito": [
+     "12"
+    ],
+    "recuperados@5": [
+     "12",
+     "5",
+     "13",
+     "1",
+     "11"
+    ]
+   },
+   {
+    "id": 30,
+    "pergunta": "Quando é permitido tratar dados pessoais sensíveis?",
+    "gabarito": [
+     "11"
+    ],
+    "recuperados@5": [
+     "11",
+     "14",
+     "1",
+     "10",
+     "12"
+    ]
+   }
+  ]
+ },
+ "e5-base + B (parágrafos)": {
+  "hit": {
+   "1": 0.6,
+   "3": 0.7333333333333333,
+   "5": 0.8
+  },
+  "recall": {
+   "1": 0.5,
+   "3": 0.6833333333333333,
+   "5": 0.7666666666666667
+  },
+  "detalhes": [
+   {
+    "id": 1,
+    "pergunta": "O que a lei considera dado pessoal sensível?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "33",
+     "27",
+     "5",
+     "23",
+     "26"
+    ]
+   },
+   {
+    "id": 2,
+    "pergunta": "Quem é o controlador dos dados?",
+    "gabarito": [
+     "5"
+    ],
+    "recuperados@5": [
+     "41",
+     "38",
+     "42",
+     "44",
+     "18"
+    ]
+   },
+   {
+    "id": 3,
+    "pergunta": "Quem é o encarregado de dados e quem o indica?",
+    "gabarito": [
+     "41",
+     "5"
+    ],
+    "recuperados@5": [
+     "41",
+     "5",
+     "38",
+     "20"
+    ]
+   },
+   {
+    "id": 4,
+    "pergunta": "Em quais casos a LGPD não se aplica?",
+    "gabarito": [
+     "4"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-J",
+     "5",
+     "27"
+    ]
+   },
+   {
+    "id": 5,
+    "pergunta": "Quais princípios as empresas precisam seguir ao tratar dados pessoais?",
+    "gabarito": [
+     "6"
+    ],
+    "recuperados@5": [
+     "6",
+     "55-J",
+     "44",
+     "20",
+     "23"
+    ]
+   },
+   {
+    "id": 6,
+    "pergunta": "A empresa pode tratar dados para cumprir uma obrigação legal sem pedir consentimento?",
+    "gabarito": [
+     "7"
+    ],
+    "recuperados@5": [
+     "18",
+     "29",
+     "11",
+     "38",
+     "20"
+    ]
+   },
+   {
+    "id": 7,
+    "pergunta": "Como o consentimento do titular precisa ser dado?",
+    "gabarito": [
+     "8"
+    ],
+    "recuperados@5": [
+     "18",
+     "27",
+     "8",
+     "7",
+     "11"
+    ]
+   },
+   {
+    "id": 8,
+    "pergunta": "O titular pode voltar atrás e retirar o consentimento que deu?",
+    "gabarito": [
+     "18",
+     "8"
+    ],
+    "recuperados@5": [
+     "18",
+     "8",
+     "9",
+     "7"
+    ]
+   },
+   {
+    "id": 9,
+    "pergunta": "Quais cuidados valem para dados de crianças e adolescentes?",
+    "gabarito": [
+     "14"
+    ],
+    "recuperados@5": [
+     "14",
+     "6",
+     "17",
+     "11"
+    ]
+   },
+   {
+    "id": 10,
+    "pergunta": "Quando o tratamento acaba e o que acontece com os dados depois?",
+    "gabarito": [
+     "15",
+     "16"
+    ],
+    "recuperados@5": [
+     "15",
+     "47",
+     "16",
+     "43",
+     "31"
+    ]
+   },
+   {
+    "id": 11,
+    "pergunta": "Quais direitos tenho sobre os meus dados pessoais?",
+    "gabarito": [
+     "18"
+    ],
+    "recuperados@5": [
+     "17",
+     "1",
+     "18",
+     "20",
+     "60"
+    ]
+   },
+   {
+    "id": 12,
+    "pergunta": "Em quanto tempo a empresa deve confirmar que trata meus dados?",
+    "gabarito": [
+     "19"
+    ],
+    "recuperados@5": [
+     "19",
+     "18",
+     "60",
+     "52",
+     "5"
+    ]
+   },
+   {
+    "id": 13,
+    "pergunta": "Posso pedir revisão de uma decisão tomada só por algoritmo?",
+    "gabarito": [
+     "20"
+    ],
+    "recuperados@5": [
+     "20",
+     "12",
+     "22",
+     "29",
+     "38"
+    ]
+   },
+   {
+    "id": 14,
+    "pergunta": "Em que casos dados pessoais podem ser enviados para outro país?",
+    "gabarito": [
+     "33"
+    ],
+    "recuperados@5": [
+     "33",
+     "26",
+     "31",
+     "12"
+    ]
+   },
+   {
+    "id": 15,
+    "pergunta": "Quem avalia se um país estrangeiro protege bem os dados pessoais?",
+    "gabarito": [
+     "34"
+    ],
+    "recuperados@5": [
+     "34",
+     "33",
+     "38",
+     "5",
+     "55-J"
+    ]
+   },
+   {
+    "id": 16,
+    "pergunta": "O operador deve seguir as instruções do controlador?",
+    "gabarito": [
+     "39"
+    ],
+    "recuperados@5": [
+     "39",
+     "37",
+     "44",
+     "42",
+     "41"
+    ]
+   },
+   {
+    "id": 17,
+    "pergunta": "A empresa precisa manter registro das operações de tratamento?",
+    "gabarito": [
+     "37"
+    ],
+    "recuperados@5": [
+     "37",
+     "3",
+     "47",
+     "38",
+     "6"
+    ]
+   },
+   {
+    "id": 18,
+    "pergunta": "O que é o relatório de impacto à proteção de dados?",
+    "gabarito": [
+     "38",
+     "5"
+    ],
+    "recuperados@5": [
+     "38",
+     "32",
+     "10",
+     "55-J"
+    ]
+   },
+   {
+    "id": 19,
+    "pergunta": "A quem o titular pode fazer reclamações dentro da empresa?",
+    "gabarito": [
+     "41"
+    ],
+    "recuperados@5": [
+     "61",
+     "38",
+     "18",
+     "20",
+     "50"
+    ]
+   },
+   {
+    "id": 20,
+    "pergunta": "Quem responde pelos danos causados por tratamento irregular de dados?",
+    "gabarito": [
+     "42",
+     "44"
+    ],
+    "recuperados@5": [
+     "44",
+     "43",
+     "42"
+    ]
+   },
+   {
+    "id": 21,
+    "pergunta": "Em que situações os agentes de tratamento não são responsabilizados?",
+    "gabarito": [
+     "43"
+    ],
+    "recuperados@5": [
+     "43",
+     "47",
+     "46",
+     "42",
+     "44"
+    ]
+   },
+   {
+    "id": 22,
+    "pergunta": "A empresa deve avisar sobre vazamento de dados?",
+    "gabarito": [
+     "48"
+    ],
+    "recuperados@5": [
+     "31",
+     "26",
+     "18",
+     "32",
+     "38"
+    ]
+   },
+   {
+    "id": 23,
+    "pergunta": "Quais medidas de segurança os agentes devem adotar?",
+    "gabarito": [
+     "46"
+    ],
+    "recuperados@5": [
+     "46",
+     "32",
+     "47",
+     "48",
+     "6"
+    ]
+   },
+   {
+    "id": 24,
+    "pergunta": "Que punições a ANPD pode aplicar a quem descumpre a lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "52",
+     "55-J",
+     "55-C"
+    ]
+   },
+   {
+    "id": 25,
+    "pergunta": "Qual o limite da multa simples pelo descumprimento da lei?",
+    "gabarito": [
+     "52"
+    ],
+    "recuperados@5": [
+     "54",
+     "55-F",
+     "52",
+     "31"
+    ]
+   },
+   {
+    "id": 26,
+    "pergunta": "Qual a natureza jurídica da ANPD?",
+    "gabarito": [
+     "55-A"
+    ],
+    "recuperados@5": [
+     "55-K",
+     "55-C",
+     "5",
+     "55-L"
+    ]
+   },
+   {
+    "id": 27,
+    "pergunta": "A lei vale para dados coletados no Brasil por empresa estrangeira?",
+    "gabarito": [
+     "3"
+    ],
+    "recuperados@5": [
+     "61",
+     "18",
+     "26",
+     "3",
+     "34"
+    ]
+   },
+   {
+    "id": 28,
+    "pergunta": "Quando o legítimo interesse pode justificar o tratamento de dados?",
+    "gabarito": [
+     "10",
+     "7"
+    ],
+    "recuperados@5": [
+     "10",
+     "23",
+     "37",
+     "33",
+     "6"
+    ]
+   },
+   {
+    "id": 29,
+    "pergunta": "Dados anonimizados são considerados dados pessoais?",
+    "gabarito": [
+     "12"
+    ],
+    "recuperados@5": [
+     "12",
+     "5",
+     "16",
+     "11",
+     "7"
+    ]
+   },
+   {
+    "id": 30,
+    "pergunta": "Quando é permitido tratar dados pessoais sensíveis?",
+    "gabarito": [
+     "11"
+    ],
+    "recuperados@5": [
+     "11",
+     "38",
+     "5",
+     "23",
+     "44"
+    ]
+   }
+  ]
+ }
+}

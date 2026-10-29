@@ -1,0 +1,19 @@
+﻿id;tipo;pergunta;fiel (sim/parcial/nao);observacao
+G1;gabarito;O que a lei considera dado pessoal sensível?;recusa;"A resposta literal “Não encontrei na lei.” é uma recusa; os trechos recuperados não continham a definição solicitada, indicando falha de recuperação, não uma afirmação inventada."
+G2;gabarito;Quem é o controlador dos dados?;recusa;"A resposta literal “Não encontrei na lei.” é uma recusa; os trechos recuperados não definiam controlador, indicando falha de recuperação, não uma afirmação inventada."
+G3;gabarito;Quem é o encarregado de dados e quem o indica?;sim;O art. 41 afirma que o controlador indica o encarregado e lista as atividades descritas na resposta.
+G4;gabarito;Em quais casos a LGPD não se aplica?;sim;A resposta enumera as hipóteses do art. 4º presentes nos trechos, sem acrescentar hipótese alheia.
+G5;gabarito;Quais princípios as empresas precisam seguir ao tratar dados pessoais?;sim;Os dez princípios e suas descrições correspondem ao art. 6º fornecido.
+G8;gabarito;O titular pode voltar atrás e retirar o consentimento que deu?;sim;O art. 8º, § 5º, e o art. 18, IX, sustentam a revogação a qualquer momento, por manifestação expressa e procedimento gratuito e facilitado.
+G9;gabarito;Quais cuidados valem para dados de crianças e adolescentes?;parcial;"A resposta acompanha o art. 14, mas generaliza a regra de não condicionar atividades para crianças e adolescentes; o § 4º remete aos titulares do § 1º (crianças)."
+G14;gabarito;Em que casos dados pessoais podem ser enviados para outro país?;sim;Os nove casos listados correspondem às hipóteses do art. 33 reproduzido nos trechos.
+G18;gabarito;O que é o relatório de impacto à proteção de dados?;sim;A definição, os elementos mínimos e a possibilidade de determinação pela autoridade nacional correspondem ao art. 38.
+G19;gabarito;A quem o titular pode fazer reclamações dentro da empresa?;recusa;"A resposta literal “Não encontrei na lei.” é uma recusa; os trechos recuperados não incluíam o art. 41 necessário para responder, indicando falha de recuperação, não uma afirmação inventada."
+G21;gabarito;Em que situações os agentes de tratamento não são responsabilizados?;sim;As três hipóteses descritas correspondem às excludentes de responsabilidade do art. 43.
+G24;gabarito;Que punições a ANPD pode aplicar a quem descumpre a lei?;recusa;"A resposta literal “Não encontrei na lei.” é uma recusa. Os trechos recuperados incluíam o art. 55-J, que menciona a competência da ANPD para aplicar sanções, mas não listavam as sanções do art. 52; a falha está na recuperação insuficiente, não em informação inventada."
+G25;gabarito;Qual o limite da multa simples pelo descumprimento da lei?;sim;O limite de 2% do faturamento, excluídos tributos, e o teto de R$ 50 milhões por infração correspondem ao art. 52, II.
+G28;gabarito;Quando o legítimo interesse pode justificar o tratamento de dados?;parcial;"Os dois fundamentos listados aparecem no art. 10, mas a resposta omite condições presentes nos trechos: tratar apenas dados estritamente necessários e garantir transparência; também não menciona o possível relatório de impacto."
+G29;gabarito;Dados anonimizados são considerados dados pessoais?;parcial;A resposta reproduz a regra de reversibilidade do art. 12, mas omite o § 2º, que também admite considerar dados de perfil comportamental como pessoais se a pessoa natural estiver identificada.
+F1;fora_do_escopo;Qual a capital da França?;sim;A pergunta é fora do escopo dos trechos sobre a LGPD e a resposta se recusa a responder com base neles.
+F2;fora_do_escopo;Como funciona a tributação do imposto de renda sobre aluguéis?;sim;A pergunta é fora do escopo dos trechos sobre a LGPD e a resposta se recusa a responder com base neles.
+F3;fora_do_escopo;Qual o prazo de garantia legal de um produto durável pelo Código de Defesa do Consumidor?;sim;A pergunta é fora do escopo dos trechos sobre a LGPD e a resposta se recusa a responder com base neles.
